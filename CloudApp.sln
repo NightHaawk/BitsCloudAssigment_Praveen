@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30002.166
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CloudApp", "CloudApp.csproj", "{0BD85996-211D-47FC-B178-BC95630DE420}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0BD85996-211D-47FC-B178-BC95630DE420}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0BD85996-211D-47FC-B178-BC95630DE420}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0BD85996-211D-47FC-B178-BC95630DE420}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0BD85996-211D-47FC-B178-BC95630DE420}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {18C9EB7D-FFE9-40BC-89D1-13A35144EC3D}
+	EndGlobalSection
+EndGlobal

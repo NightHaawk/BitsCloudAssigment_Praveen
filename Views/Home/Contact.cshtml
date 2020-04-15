@@ -1,0 +1,44 @@
+﻿@{
+    ViewData["Title"] = "Contact";
+}
+
+@model IEnumerable<CloudApp.Models.Videos>
+<h2>@ViewData["Title"]</h2>
+<h3>@ViewData["Message"]</h3>
+
+@using (Html.BeginForm("Search", "Home", FormMethod.Post))
+{
+    <label for="firstName">Search</label>
+    <input type="text" id="search" required name="search" placeholder="Search Here" />
+    <input type="number" id="minimumShow" value="10" required name="minimumShow" placeholder="Minimum Show" />
+
+    <input type="submit" />
+}
+
+
+
+
+@*<iframe src="@(ViewBag.IframeUrl)"></iframe>*@
+
+<table class="table table-bordered table-responsive table-hover">
+    <tr>
+
+        <th>Title</th>
+        <th>VideoID</th>
+        <th>TV</th>
+
+    </tr>
+    @foreach (var d in Model)
+    {
+        <tr>
+            <td>@d.Title</td>
+            <td>@d.VideoID</td>
+
+            <td><iframe src="@d.VideoID"></iframe></td>
+        </tr>
+
+    }
+</table>
+
+
+
